@@ -1,0 +1,93 @@
+body{
+  background-color: #e8e8e4;
+}
+.onepage{
+  height: 900px;
+}
+#navbar{
+  width: 100%;
+  height: 100px;
+  background-color: #003e51;
+}
+#attachment{
+  font-family:MingLiU-ExtB;
+  width: 100%;
+  height:300px;
+  background-color: #88ada6;
+  font-size: 40px;
+  color: white;
+}
+h1,h4{
+  padding-top: 5px;
+}
+h3{
+  color:black;
+  padding: 20%;
+  font-family: 宋体;
+}
+#poster{
+  width:auto;
+  height: 500px;
+  overflow: hidden;
+
+}
+#poster img{
+  width:auto;
+  height: 500px;
+  transition: all 1s;
+}
+#poster img:hover{
+  transform:scale(1.1);
+}
+.part n2,n3{
+  transition: all 1s;
+}
+.part n2,n3 hover{
+  transform: filter:brightness(0.8);
+}
+#text{
+  background-color: #003e51;
+  height:500px;
+}
+.twopage{
+  background-color: white;
+  height:675px;
+}
+#wide{
+  width: 100%;
+  height: 675px;
+  overflow: hidden;
+}
+ img{
+  width:100%;
+  height: 500px;
+  transition: all 1s;
+}
+ img:hover{
+  transform:scale(1.1);
+}
+.threepage{
+  height:750px;
+}
+.part{
+  background-color: white;
+  float:left;
+  width:50%;
+  height: 50%;
+    overflow: hidden;
+}
+ /* img{
+  width:auto;
+  height: 500px;
+  transition: all 1s;
+}
+ img:hover{
+  transform:scale(1.1);
+} */
+
+.fourpage{
+  height:750px;
+}
+.fivepage{
+  height:750px;
+}

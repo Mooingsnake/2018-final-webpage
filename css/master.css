@@ -1,0 +1,179 @@
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+p{
+  color: white;
+}
+ul{
+  float:left;
+}
+.onepage{
+  height: 750px;
+}
+.onepage-bg{
+  height: 750px;
+  background-position: center center;
+  width:100%;
+  position: absolute;
+  background-size: cover;
+
+    /* background-image: url("../pictures/gun/001.jpg"); */
+}
+#onepagebg{
+  background-image: url("../pictures/gun/101.jpg");
+  /* filter: brightness(0.2); */
+}
+.humor{
+  /* background-image: url("../pictures/blackhumor.png"); */
+  margin-top: 300px;
+  height: 120px;
+  width: 600px;
+  position: absolute;
+  background-position: center center;
+}
+#pp{
+  width: 250px;
+  margin-left: 500px;
+  margin-top: 400px;
+}
+.twopage{
+  height: 750px;
+  /* margin-bottom: 50px; */
+}
+.twopage-bg{
+  height:750px;
+  width: 100%;
+  position: absolute;
+  background-size:cover;
+  background-position: center center;
+}
+#twopage-bg{
+  height:750px;
+  background-image: url("../pictures/index/page22.jpg");
+  filter: brightness(0.5);
+
+
+}
+
+.twopage col-md-1 offset-md-1{
+
+}
+.twopage-text-h1{
+float: left;
+  width:40px;
+  height: auto;
+}
+#name
+{left:30%;
+  margin-top:60px;
+
+}
+.button {
+  display: inline-block;
+  background-color:rgba(0,0,0,0);
+  border: none;
+  color: #FFFFFF;
+  font-size: 35px;
+  font-family: Bahnschrift Light Condensed;
+  width: 900px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity:0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.row{
+  padding-top:  50px;
+}
+.col-md-1{
+padding-right:2px;
+
+}
+.pretend{
+  margin-top: 60px;
+  margin-left: 30%;
+  width:500px;
+  height: 500px;
+  background-color:rgba(255,0,0,0.2) ;
+}
+.thirdpage{
+  background-color: white;
+  height: 800px;
+
+}
+
+.thirdpage p,h1{
+  color: black;
+}
+.thirdpage img{
+  border: 2px solid black;
+}
+.thirdpage-bg{
+  height: 250px;
+  width:100%;
+  position: absolute;
+  background-position: center center;
+  background-size: cover;
+
+}
+#thirdpagebg{
+  background-image: url("../pictures/index/image.jpg");
+
+}
+.fourpage{
+  background-color: black;
+  height: 750px;
+}
+.fourpage-bg{
+  height: 248px;
+  width: 100%;
+  background-image: url("../pictures/index/opera.jpg");
+    filter: brightness(0.8);
+}
+.fourpage-title{
+  left: -120px;
+  width: 241.2px;
+  height: 220px;
+  background-image: url("../pictures/index/special.jpg");
+}
+.fourpage img{
+  border:2px solid white
+}
+.fivepage{
+  background-color: white;
+  height: 750px;
+}
+.fivepage p{
+  color:black;
+}
+.fivepage img{
+  border:2px solid black;
+}
+img{
+  margin-top: 5px;
+  width：100px;
+  height: 100px;
+}

@@ -1,0 +1,38 @@
+.onepage{
+  height: 900px;
+}
+#navbar{
+  height: 70px;
+  background-color: black;
+}
+#atachment{
+  height:90px;
+  background-color: gray;
+}
+#poster{
+  height: 500px;
+  overflow: hidden;
+
+}
+#poster img{
+  cursor:pointer;
+  transition: all 1s;
+}
+#poster img:hover{
+  transform:scale(1.1);
+}
+#text{
+  height:500px;
+}
+.twopage{
+  height:750px;
+}
+.threepage{
+  height:750px;
+}
+.fourpage{
+  height:750px;
+}
+.fivepage{
+  height:750px;
+}

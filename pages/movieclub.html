@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>movieclub</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/master.css"> -->
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<style media="screen">
+  body{
+    background-color: #e8e8e4;
+  }
+  .onepage{
+    height:750px;
+    width:100%;
+  }
+  .onepagebg{
+    height:750px;
+    width:100%;
+    position:absolute;
+  background-size:cover;
+  background-position:center center;
+  }
+  #onepagebg{
+    background-image:url("movieclub.jpg");
+  }
+  h1{
+    color:black;
+    font-family:LeviReBrushed,宋体;
+    font-size:43px;
+
+  }h2{
+    color:black;
+    font-family:LeviReBrushed,宋体;
+    font-size:35px;
+
+  }
+.twopage{
+  height:750px;
+}
+.threepage{
+  height:750px;
+}
+.comment{
+
+}
+</style>
+  </head>
+  <body>
+    <div class="onepage">
+      <div class="onepagebg" id="onepagebg">
+        <nav class="navbar navbar-expand-sm fixed-top ">
+          <!-- Brand -->
+          <a style="color:white"class="navbar-brand" href="hemopage.html">Stomper</a>
+
+          <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a style="color:white" class="nav-link" href="gun.html">weekly poster</a>
+            </li>
+            <li class="nav-item">
+              <a style="color:white" class="nav-link" href="login&regisiter.html">login</a>
+            </li>
+            <li class="nav-item">
+              <a style="color:white" class="nav-link" href="movies library.html">movies</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a style="color:white" class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                masters
+              </a>
+              <div class="dropdown-menu">
+                <a style="color:white" class="dropdown-item" href="kubu.html">Stanley Kubrick</a>
+                <a  style="color:white"class="dropdown-item" href="kunding.html">Quentin Tarantino</a>
+                <a  style="color:white"class="dropdown-item" href="guy.html">Guy Ritchie </a>
+              </div>
+            </li>
+          </ul>
+      </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 offset-md-3">
+              <h2 style="font-size:40px;margin-top:40%">Welcomr to </h2>
+              </div>
+              <div class="col-md-6 offset-md-4">
+
+                <h1 style="font-size:100px;">movie club！</h1>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="twopage">
+      <div id="accordion">
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+         低俗小说
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        非线性的叙事电影的代表作。结构巧妙而富有深意，精彩的对白。
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        有话好好说
+      </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+          两杆大烟枪
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-parent="#accordion">
+
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="threepage">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10">
+            <div class="comment">
+              <hr>
+              <a href="#">zzz</a>
+              <p>重看这部非线性叙事结构的电影，学会了英语骂人的一百种方法。经典的地方太多了，第一个小故事里的女主跳舞很好看。看完怅然若失，生活里的某些难以言述的片段被叙述出来，“咬尾蛇”的荒谬感吧，满屏的荒谬感，又特别真实。 大概率要重看的。</p>
+
+            </div>
+          </div>
+          <div class="col-md-10">
+            <div class="comment">
+              <hr>
+              <a href="#">xx</a>
+              <p>听矮大紧介绍来看的，挺好玩电影，导演拍摄手法很特别，经典电影确实不一样，就是那种你一看开头，就知道这绝不是一部普通片，经典片是有气质的。</p>
+
+            </div>
+          </div>
+          <div class="col-md-10">
+            <div class="comment">
+              <hr>
+              <a href="#">cc</a>
+              <p>非线性叙事得代表，转了一圈又回来了。在自己的故事内你是主角，在别人的故事内你就说配角。前一秒日天日地，后一秒可能就被秒。人生世事无常</p>
+            </div>
+          </div>
+          <div class="col-md-10">
+            <textarea rows="10" cols="60">
+你可以输入你想要说的。
+</textarea>
+<div class="col-md-2 offset-md-5">
+  <input type="submit" class="btn btn-success" value="提交按钮">
+</div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
